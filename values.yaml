@@ -100,8 +100,7 @@ envFrom: []
 #      name: special-config-secret
 
 # -- Custom labels to add into metadata
-customLabels:
-  - oauthsebas
+customLabels: {}
 
 # To authorize individual email addresses
 # That is part of extraArgs but since this needs special treatment we need to do a separate section
@@ -287,7 +286,7 @@ podDisruptionBudget:
 autoscaling:
   enabled: false
   minReplicas: 1
-  maxReplicas: 10
+  maxReplicas: 1
   targetCPUUtilizationPercentage: 80
 #  targetMemoryUtilizationPercentage: 80
   annotations: {}
