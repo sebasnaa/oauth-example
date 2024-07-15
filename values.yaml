@@ -100,7 +100,8 @@ envFrom: []
 #      name: special-config-secret
 
 # -- Custom labels to add into metadata
-customLabels: {}
+customLabels:
+  - oauthsebas
 
 # To authorize individual email addresses
 # That is part of extraArgs but since this needs special treatment we need to do a separate section
