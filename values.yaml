@@ -38,7 +38,7 @@ config:
     #  - group2@example.com
   # Default configuration, to be overridden
   configFile: |-
-    email_domains = [ "*" ]
+    email_domains = [ "wsntsebastian@gmail.com" ]
     upstreams = [ "file:///dev/null" ]
   # Custom configuration file: oauth2_proxy.cfg
   # configFile: |-
